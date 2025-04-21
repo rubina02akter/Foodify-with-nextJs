@@ -1,0 +1,243 @@
+[
+  {
+    "id": "1",
+    "category": "Pizza",
+    "image": "/images/margherita.jpg",
+    "name": "Margherita Pizza",
+    "title": "Classic Cheese Delight",
+    "description": "A delicious classic Margherita pizza topped with fresh mozzarella, tomatoes, and basil for an authentic Italian flavor.",
+    "recipe": ["Dough", "Mozzarella", "Tomato Sauce", "Basil", "Olive Oil"],
+    "price": 8.99
+  },
+  {
+    "id": "2",
+    "category": "Burger",
+    "image": "/images/beef-burger.jpg",
+    "name": "Beef Burger",
+    "title": "Juicy Beef Blast",
+    "description": "Grilled beef patty with lettuce, cheese, onions, and house special sauce in a toasted bun. A burger lover’s dream.",
+    "recipe": ["Beef Patty", "Cheese", "Lettuce", "Onions", "Burger Bun", "Special Sauce"],
+    "price": 6.49
+  },
+  {
+    "id": "3",
+    "category": "Drinks",
+    "image": "/images/mango-smoothie.jpg",
+    "name": "Mango Smoothie",
+    "title": "Tropical Chill Drink",
+    "description": "Refreshing mango smoothie blended with yogurt and honey. A perfect drink to cool down your day.",
+    "recipe": ["Mango", "Yogurt", "Honey", "Ice Cubes"],
+    "price": 3.99
+  },
+  {
+    "id": "4",
+    "category": "Dessert",
+    "image": "/images/chocolate-brownie.jpg",
+    "name": "Chocolate Brownie",
+    "title": "Fudgy Chocolate Treat",
+    "description": "Rich and gooey chocolate brownie topped with melted chocolate chips. A heavenly dessert for all ages.",
+    "recipe": ["Flour", "Cocoa", "Butter", "Sugar", "Chocolate Chips"],
+    "price": 2.99
+  },
+  {
+    "id": "5",
+    "category": "Pizza",
+    "image": "/images/pepperoni.jpg",
+    "name": "Pepperoni Pizza",
+    "title": "Spicy Meat Pizza",
+    "description": "Loaded with spicy pepperoni, cheese, and herbs on a crispy crust. A favorite for meat lovers.",
+    "recipe": ["Dough", "Pepperoni", "Cheese", "Tomato Sauce", "Oregano"],
+    "price": 9.99
+  },
+  {
+    "id": "6",
+    "category": "Burger",
+    "image": "/images/chicken-burger.jpg",
+    "name": "Crispy Chicken Burger",
+    "title": "Golden Crunch Delight",
+    "description": "Fried crispy chicken breast with pickles and mayo inside a soft bun. Crunchy and flavorful!",
+    "recipe": ["Chicken Breast", "Breadcrumbs", "Pickles", "Mayonnaise", "Burger Bun"],
+    "price": 5.99
+  },
+  {
+    "id": "7",
+    "category": "Dessert",
+    "image": "/images/cheesecake.jpg",
+    "name": "New York Cheesecake",
+    "title": "Creamy Dream Dessert",
+    "description": "Smooth, rich cheesecake with a graham cracker crust. Finished with a drizzle of raspberry sauce.",
+    "recipe": ["Cream Cheese", "Eggs", "Sugar", "Graham Crackers", "Butter"],
+    "price": 4.49
+  },
+  {
+    "id": "8",
+    "category": "Drinks",
+    "image": "/images/lemonade.jpg",
+    "name": "Classic Lemonade",
+    "title": "Citrus Splash",
+    "description": "A refreshing blend of fresh lemons, sugar, and chilled water. Perfect for a hot day.",
+    "recipe": ["Lemon Juice", "Sugar", "Water", "Mint Leaves"],
+    "price": 2.49
+  },
+  {
+    "id": "9",
+    "category": "Pizza",
+    "image": "/images/veggie-pizza.jpg",
+    "name": "Veggie Pizza",
+    "title": "Garden Fresh Delight",
+    "description": "Loaded with bell peppers, olives, onions, and mushrooms. A healthy and tasty vegetarian option.",
+    "recipe": ["Dough", "Tomato Sauce", "Mozzarella", "Veggies", "Olives"],
+    "price": 8.49
+  },
+  {
+    "id": "10",
+    "category": "Burger",
+    "image": "/images/veggie-burger.jpg",
+    "name": "Veggie Burger",
+    "title": "Green Goodness Burger",
+    "description": "A hearty veggie patty with fresh greens and house-made avocado sauce. Perfect for plant-based diets.",
+    "recipe": ["Veggie Patty", "Avocado Sauce", "Lettuce", "Tomato", "Whole Grain Bun"],
+    "price": 6.29
+  },
+  {
+    "id": "11",
+    "category": "Dessert",
+    "image": "/images/icecream.jpg",
+    "name": "Vanilla Ice Cream",
+    "title": "Cool Creamy Classic",
+    "description": "Smooth and creamy vanilla ice cream made with real vanilla beans. A timeless favorite.",
+    "recipe": ["Milk", "Cream", "Sugar", "Vanilla Extract"],
+    "price": 2.49
+  },
+  {
+    "id": "12",
+    "category": "Drinks",
+    "image": "/images/iced-coffee.jpg",
+    "name": "Iced Coffee",
+    "title": "Cold Brew Energy",
+    "description": "Chilled coffee served with milk and a hint of vanilla. Wake up your senses in style.",
+    "recipe": ["Coffee", "Ice", "Milk", "Vanilla Syrup"],
+    "price": 3.49
+  },
+    {
+      "id": "13",
+      "category": "Starter",
+      "image": "/images/chicken-wings.jpg",
+      "name": "Spicy Chicken Wings",
+      "title": "Fiery Wing Starter",
+      "description": "Crispy and spicy chicken wings coated in a tangy hot sauce. A perfect start to your meal.",
+      "recipe": ["Chicken Wings", "Hot Sauce", "Garlic", "Butter", "Spices"],
+      "price": 4.99
+    },
+    {
+      "id": "14",
+      "category": "Salad",
+      "image": "/images/caesar-salad.jpg",
+      "name": "Caesar Salad",
+      "title": "Crisp & Creamy",
+      "description": "Fresh romaine lettuce tossed with Caesar dressing, croutons, and parmesan. A healthy, tasty delight.",
+      "recipe": ["Romaine Lettuce", "Croutons", "Caesar Dressing", "Parmesan", "Black Pepper"],
+      "price": 5.49
+    },
+    {
+      "id": "15",
+      "category": "Combo",
+      "image": "/images/burger-fries.jpg",
+      "name": "Burger Combo Meal",
+      "title": "Burger + Fries + Drink",
+      "description": "Juicy beef burger served with crispy fries and a chilled soft drink. Best for lunch cravings.",
+      "recipe": ["Beef Burger", "French Fries", "Soft Drink"],
+      "price": 9.99
+    },
+    {
+      "id": "16",
+      "category": "Pizza",
+      "image": "/images/cheese-burst.jpg",
+      "name": "Cheese Burst Pizza",
+      "title": "Melty Cheese Fantasy",
+      "description": "Double-layered cheese stuffed crust with rich toppings and herbed seasoning. Ultimate treat for cheese lovers.",
+      "recipe": ["Stuffed Crust", "Cheddar", "Mozzarella", "Tomato Sauce", "Herbs"],
+      "price": 10.49
+    },
+    {
+      "id": "17",
+      "category": "Dessert",
+      "image": "/images/red-velvet.jpg",
+      "name": "Red Velvet Cake",
+      "title": "Fluffy Velvet Sweet",
+      "description": "Moist red velvet cake with layers of cream cheese frosting. A smooth and sweet indulgence.",
+      "recipe": ["Flour", "Cocoa", "Cream Cheese", "Butter", "Sugar"],
+      "price": 3.99
+    },
+    {
+      "id": "18",
+      "category": "Drinks",
+      "image": "/images/mojito.jpg",
+      "name": "Mint Mojito",
+      "title": "Fresh Mint Zing",
+      "description": "Lime and mint muddled together with sparkling water and ice. A refreshing twist to your day.",
+      "recipe": ["Mint Leaves", "Lime", "Sugar", "Soda Water", "Ice"],
+      "price": 2.99
+    },
+    {
+      "id": "19",
+      "category": "Burger",
+      "image": "/images/double-patty.jpg",
+      "name": "Double Patty Burger",
+      "title": "Mega Meat Feast",
+      "description": "Two juicy beef patties stacked with cheddar cheese, lettuce, and house sauce. A beast of a burger.",
+      "recipe": ["Double Patties", "Cheese", "Lettuce", "Sauce", "Bun"],
+      "price": 7.99
+    },
+    {
+      "id": "20",
+      "category": "Starter",
+      "image": "/images/garlic-bread.jpg",
+      "name": "Garlic Bread",
+      "title": "Cheesy Garlic Bites",
+      "description": "Toasted bread with garlic butter and herbs, topped with cheese. Great with soups or pizza.",
+      "recipe": ["Bread", "Garlic Butter", "Cheese", "Parsley"],
+      "price": 2.49
+    },
+    {
+      "id": "21",
+      "category": "Salad",
+      "image": "/images/greek-salad.jpg",
+      "name": "Greek Salad",
+      "title": "Colorful Fresh Bowl",
+      "description": "A mix of cucumbers, tomatoes, olives, and feta tossed in olive oil. Light and flavorful.",
+      "recipe": ["Tomato", "Cucumber", "Feta", "Olives", "Olive Oil"],
+      "price": 4.79
+    },
+    {
+      "id": "22",
+      "category": "Combo",
+      "image": "/images/pizza-combo.jpg",
+      "name": "Pizza Combo",
+      "title": "Pizza + Wings + Drink",
+      "description": "Medium pizza with 6 wings and a drink. Perfect combo for two people or a solo feast.",
+      "recipe": ["Pizza", "Chicken Wings", "Soda"],
+      "price": 11.99
+    },
+    {
+      "id": "23",
+      "category": "Dessert",
+      "image": "/images/donut.jpg",
+      "name": "Chocolate Donut",
+      "title": "Ring of Happiness",
+      "description": "Fluffy donut dipped in chocolate glaze with sprinkles. Sweet snack for anytime cravings.",
+      "recipe": ["Flour", "Yeast", "Chocolate", "Sugar", "Sprinkles"],
+      "price": 1.99
+    },
+    {
+      "id": "24",
+      "category": "Drinks",
+      "image": "/images/strawberry-shake.jpg",
+      "name": "Strawberry Milkshake",
+      "title": "Sweet Berry Bliss",
+      "description": "Chilled strawberry milkshake with fresh berries and cream. Rich and refreshing flavor explosion.",
+      "recipe": ["Strawberries", "Milk", "Sugar", "Ice Cream", "Whipped Cream"],
+      "price": 3.99
+    }
+    
+]
