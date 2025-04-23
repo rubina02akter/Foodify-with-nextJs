@@ -12,7 +12,7 @@ export default async function card({ card }) {
     <div>
       <div className='font-bold text-start border p-4 bg-[#BA0120] text-white rounded-br-4xl rounded-tl-4xl'>
        
-        <Image src={menuDetails.image} width={400} height={300} alt='food' className='w-[500px] h-[300px] rounded-br-4xl rounded-tl-4xl object-center'/>
+        <Image src={menuDetails.image} width={400} height={300} alt='food' className=' rounded-br-4xl rounded-tl-4xl object-center'/>
         <h2>MenuDetails:{menuDetails.name}</h2>
       
   
