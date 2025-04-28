@@ -2,23 +2,25 @@
 
   {
     "id": "1",
-    "category": "Pizza",
-    "image": "https://i.ibb.co.com/nNBYCsDT/pizza-pizza-filled-with-tomatoes-salami-olives.jpg",
-    "name": "Margherita Pizza",
-    "title": "Classic Cheese Delight",
-    "description": "A delicious classic Margherita pizza topped with fresh mozzarella, tomatoes, and basil for an authentic Italian flavor.",
-    "recipe": ["Dough", "Mozzarella", "Tomato Sauce", "Basil", "Olive Oil"],
-    "price": 8.99
+    "category": "Dessert",
+    "image": "/images/cheesecake.jpg",
+    "name": "New York Cheesecake",
+    "title": "Creamy Dream Dessert",
+    "description": "Smooth, rich cheesecake with a graham cracker crust. Finished with a drizzle of raspberry sauce.",
+    "recipe": ["Cream Cheese", "Eggs", "Sugar", "Graham Crackers", "Butter"],
+    "price": 4.49,
+    "quantity": 15
   },
   {
     "id": "2",
     "category": "Burger",
-    "image": "https://i.ibb.co.com/RG0bTYj9/Screenshot-2025-04-23-at-3-14-22-AM.png",
-    "name": "Beef Burger",
-    "title": "Juicy Beef Blast",
-    "description": "Grilled beef patty with lettuce, cheese, onions, and house special sauce in a toasted bun. A burger lover’s dream.",
-    "recipe": ["Beef Patty", "Cheese", "Lettuce", "Onions", "Burger Bun", "Special Sauce"],
-    "price": 6.49
+    "image": "/images/veggie-burger.jpg",
+    "name": "Veggie Burger",
+    "title": "Green Goodness Burger",
+    "description": "A hearty veggie patty with fresh greens and house-made avocado sauce. Perfect for plant-based diets.",
+    "recipe": ["Veggie Patty", "Avocado Sauce", "Lettuce", "Tomato", "Whole Grain Bun"],
+    "price": 6.29,
+    "quantity": 10
   },
   {
     "id": "3",
@@ -28,7 +30,8 @@
     "title": "Tropical Chill Drink",
     "description": "Refreshing mango smoothie blended with yogurt and honey. A perfect drink to cool down your day.",
     "recipe": ["Mango", "Yogurt", "Honey", "Ice Cubes"],
-    "price": 3.99
+    "price": 3.99,
+    "quantity": 9
   },
   {
     "id": "4",
@@ -38,7 +41,8 @@
     "title": "Fudgy Chocolate Treat",
     "description": "Rich and gooey chocolate brownie topped with melted chocolate chips. A heavenly dessert for all ages.",
     "recipe": ["Flour", "Cocoa", "Butter", "Sugar", "Chocolate Chips"],
-    "price": 2.99
+    "price": 2.99,
+    "quantity": 1
   },
   {
     "id": "5",
@@ -48,30 +52,32 @@
     "title": "Crisp & Creamy",
     "description": "Fresh romaine lettuce tossed with Caesar dressing, croutons, and parmesan. A healthy, tasty delight.",
     "recipe": ["Romaine Lettuce", "Croutons", "Caesar Dressing", "Parmesan", "Black Pepper"],
-    "price": 5.49
-  }
- ,
- {
-  "id": "6",
-  "category": "Combo",
-  "image": "https://i.ibb.co.com/3YFJww6S/fried-chicken-with-variety-sauces-french-fries.jpg",
-  "name": "Pizza Combo",
-  "title": "Pizza + Wings + Drink",
-  "description": "Medium pizza with 6 wings and a drink. Perfect combo for two people or a solo feast.",
-  "recipe": ["Pizza", "Chicken Wings", "Soda"],
-  "price": 11.99
-}
- ,
+    "price": 5.49,
+    "quantity": 7
+  },
+  {
+    "id": "6",
+    "category": "Combo",
+    "image": "https://i.ibb.co.com/3YFJww6S/fried-chicken-with-variety-sauces-french-fries.jpg",
+    "name": "Pizza Combo",
+    "title": "Pizza + Wings + Drink",
+    "description": "Medium pizza with 6 wings and a drink. Perfect combo for two people or a solo feast.",
+    "recipe": ["Pizza", "Chicken Wings", "Soda"],
+    "price": 11.99,
+    "quantity": 12
+  },
   {
     "id": "7",
-    "category": "Dessert",
-    "image": "/images/cheesecake.jpg",
-    "name": "New York Cheesecake",
-    "title": "Creamy Dream Dessert",
-    "description": "Smooth, rich cheesecake with a graham cracker crust. Finished with a drizzle of raspberry sauce.",
-    "recipe": ["Cream Cheese", "Eggs", "Sugar", "Graham Crackers", "Butter"],
-    "price": 4.49
+    "category": "Pizza",
+    "image": "https://i.ibb.co.com/nNBYCsDT/pizza-pizza-filled-with-tomatoes-salami-olives.jpg",
+    "name": "Margherita Pizza",
+    "title": "Classic Cheese Delight",
+    "description": "A delicious classic Margherita pizza topped with fresh mozzarella, tomatoes, and basil for an authentic Italian flavor.",
+    "recipe": ["Dough", "Mozzarella", "Tomato Sauce", "Basil", "Olive Oil"],
+    "price": 8.99,
+    "quantity": 2
   },
+  
   {
     "id": "8",
     "category": "Drinks",
@@ -80,7 +86,8 @@
     "title": "Citrus Splash",
     "description": "A refreshing blend of fresh lemons, sugar, and chilled water. Perfect for a hot day.",
     "recipe": ["Lemon Juice", "Sugar", "Water", "Mint Leaves"],
-    "price": 2.49
+    "price": 2.49,
+    "quantity": 7
   },
   {
     "id": "9",
@@ -90,18 +97,21 @@
     "title": "Garden Fresh Delight",
     "description": "Loaded with bell peppers, olives, onions, and mushrooms. A healthy and tasty vegetarian option.",
     "recipe": ["Dough", "Tomato Sauce", "Mozzarella", "Veggies", "Olives"],
-    "price": 8.49
+    "price": 8.49,
+    "quantity": 5
   },
   {
     "id": "10",
     "category": "Burger",
-    "image": "/images/veggie-burger.jpg",
-    "name": "Veggie Burger",
-    "title": "Green Goodness Burger",
-    "description": "A hearty veggie patty with fresh greens and house-made avocado sauce. Perfect for plant-based diets.",
-    "recipe": ["Veggie Patty", "Avocado Sauce", "Lettuce", "Tomato", "Whole Grain Bun"],
-    "price": 6.29
+    "image": "https://i.ibb.co.com/RG0bTYj9/Screenshot-2025-04-23-at-3-14-22-AM.png",
+    "name": "Beef Burger",
+    "title": "Juicy Beef Blast",
+    "description": "Grilled beef patty with lettuce, cheese, onions, and house special sauce in a toasted bun. A burger lover’s dream.",
+    "recipe": ["Beef Patty", "Cheese", "Lettuce", "Onions", "Burger Bun", "Special Sauce"],
+    "price": 6.49,
+    "quantity": 4
   },
+ 
   {
     "id": "11",
     "category": "Dessert",
@@ -110,7 +120,8 @@
     "title": "Cool Creamy Classic",
     "description": "Smooth and creamy vanilla ice cream made with real vanilla beans. A timeless favorite.",
     "recipe": ["Milk", "Cream", "Sugar", "Vanilla Extract"],
-    "price": 2.49
+    "price": 2.49,
+    "quantity": 1
   },
   {
     "id": "12",
