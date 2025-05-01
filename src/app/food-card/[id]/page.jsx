@@ -1,14 +1,17 @@
 "use client";
-import ContextProvider from "@/app/ContextApi/ContextProvider";
+
+import UseAuth from "@/app/ContextApi/UseAuth";
 import Image from "next/image";
 import { useParams } from "next/navigation";
 import { useEffect, useState } from "react";
-import { useContext } from "react";
+
+
 
 export default function page() {
   const { id } = useParams();
- const{cart,setCart} = useContext(ContextProvider)
+
   const [info, setInfo] = useState([]);
+  const{cart,setCart} = UseAuth();
 
   useEffect(() => {
     fetch("/data.json")
@@ -22,9 +25,12 @@ export default function page() {
   }, []);
 const { name, image, title } = info;
 
-const handleCart=(info)=>{
-  setCart(info)
+//handleCart
+const handleCart=(count)=>{
+   setCart([...cart,count])
 }
+
+
 
   
 

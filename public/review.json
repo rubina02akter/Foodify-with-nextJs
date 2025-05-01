@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "image": "/images/testimonials/user1.jpg",
+    "name": "Sarah Ahmed",
+    "comment": "Foodify made ordering food so effortless. The delivery was fast, the food arrived hot, and everything tasted amazing. It’s my go-to platform whenever I’m craving something special."
+  },
+  {
+    "id": 2,
+    "image": "/images/testimonials/user2.jpg",
+    "name": "James Lee",
+    "comment": "I’m really impressed with Foodify! The app is user-friendly, the menu has great variety, and the ordering experience is smooth. The food always tastes fresh and well-prepared."
+  },
+  {
+    "id": 3,
+    "image": "/images/testimonials/user3.jpg",
+    "name": "Anika Rahman",
+    "comment": "Foodify has become my favorite food app. The chefs are fantastic, the dishes look and taste great, and I love how quickly everything is delivered to my doorstep."
+  },
+  {
+    "id": 4,
+    "image": "/images/testimonials/user4.jpg",
+    "name": "David Kim",
+    "comment": "Everything about Foodify feels premium — from the elegant design to the quality of food. I’ve recommended it to friends and family, and we all agree it’s outstanding."
+  },
+  {
+    "id": 5,
+    "image": "/images/testimonials/user5.jpg",
+    "name": "Priya Das",
+    "comment": "I’m always amazed by the consistent quality Foodify provides. It’s easy to use, looks great on mobile, and the food always arrives just as I imagined — or better!"
+  },
+  {
+    "id": 6,
+    "image": "/images/testimonials/user6.jpg",
+    "name": "Michael Thompson",
+    "comment": "Foodify has transformed how I order meals. It saves me time, the selection is amazing, and the taste never disappoints. I truly enjoy every experience I have here."
+  }
+]

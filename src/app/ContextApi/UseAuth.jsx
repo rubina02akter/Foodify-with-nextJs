@@ -1,8 +1,9 @@
 "use client";
 
 import { useContext } from "react";
-import { ProviderContext } from "./ContextProvider";
+import { AuthContext } from "./ContextProvider";
+
 
 export default function UseAuth() {
-  return useContext(ProviderContext);
+  return useContext(AuthContext);
 }

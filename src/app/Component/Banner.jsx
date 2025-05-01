@@ -1,11 +1,30 @@
-// import Image from 'next/image'
-// import img1 from '../../../public/images/Screenshot 2025-04-22 at 4.11.39 AM.png'
-export default function Banner() {
-  <div className='pt-24'>
-     {/* <Image
-      src={img1}
-      className="rounded-box md:w-[400px] w-[200px] h-[300px] md:h-full" /> */}
-i m banner
-  </div>
-  
-}
+'use client'
+import { Carousel } from 'react-responsive-carousel';
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Banner2 from './Banner2';
+import Banner3 from './Banner3';
+import Banner4 from './Banner4';
+import Banner5 from './Banner5';
+
+const Banner = () => {
+    return (
+        <Carousel>
+            <div>
+                <Banner2 />
+            </div>
+            <div>
+             <Banner3 />
+            </div>
+            <div>
+             <Banner4 />
+            </div>
+            <div>
+             <Banner5 />
+            </div>
+          
+           
+        </Carousel>
+    );
+};
+
+export default Banner;

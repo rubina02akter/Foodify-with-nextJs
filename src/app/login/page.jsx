@@ -1,13 +1,23 @@
 "use client";
-import { signIn } from "next-auth/react";
 
-export default function Component() {
-  return (
-    <>
-      Not signed in <br />
-      <button onClick={() => signIn("github", { callbackUrl: "/" })}>
-        Sign in
-      </button>
-    </>
-  );
-}
+import { useRouter } from 'next/navigation'
+import UseAuth from "../ContextApi/UseAuth";
+
+ export default function page() {
+  const{signInWithGoogle}=UseAuth();
+  const router = useRouter();
+
+  const handleLogIN = () => {
+    signInWithGoogle()
+    router.push('/dashboard')
+  }
+
+   return (
+     <div>
+      <div>
+        <button onClick={()=>handleLogIN()}>Log in</button>
+      </div>
+     </div>
+   )
+ }
+ 

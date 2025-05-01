@@ -1,6 +1,18 @@
+"use client";
 import Link from "next/link";
+import UseAuth from "../ContextApi/UseAuth";
+import { useRouter } from "next/navigation";
+import Image from "next/image";
+import logo from '../../../public/logo/Yellow_Abstract_Cooking_Fire_Free_Logo__1_-removebg-preview.png'
 
 export default function Navbar() {
+  const { cart, user, signOutUser } = UseAuth();
+  const router = useRouter();
+
+  const handleLogOut = () => {
+    signOutUser();
+    router.push("/login");
+  };
 
   const links = (
     <>
@@ -29,12 +41,19 @@ export default function Navbar() {
           Contact
         </Link>
       </li>
+      {user && (
+        <li>
+          <Link href="/dashboard" className="btn mr-2">
+            Dashboard
+          </Link>
+        </li>
+      )}
     </>
   );
 
   return (
-    <div className="">
-      <div className="navbar h-12 bg-[#ba0120] shadow-sm">
+    <nav className="text-white fixed w-full z-50 bg-opacity-40 bg-[#6d34214b]">
+      <div className="navbar h-20  shadow-sm">
         {/* Navbar Start */}
         <div className="navbar-start">
           {/* Mobile Dropdown */}
@@ -62,7 +81,13 @@ export default function Navbar() {
               {links}
             </ul>
           </div>
-          <a className="text-white text-xl">Foodify</a>
+          <Image
+          width={500}
+          height={500}
+          alt="Photo"
+          src={logo}
+          className='w-48 h-60 mt-8'
+          />
         </div>
 
         {/* Navbar Center */}
@@ -72,10 +97,14 @@ export default function Navbar() {
 
         {/* Navbar End */}
         <div className="navbar-end">
-          <div className="flex-none flex items-center">
+          <div className="flex-none flex items-center gap-3">
             {/* Cart Dropdown */}
             <div className="dropdown dropdown-end">
-              <div tabIndex={0} role="button" className="btn bg-white btn-circle">
+              <div
+                tabIndex={0}
+                role="button"
+                className="btn bg-white btn-circle"
+              >
                 <div className="indicator">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -91,7 +120,9 @@ export default function Navbar() {
                       d="M3 3h2l.4 2M7 13h10l4-8H5.4M7 13L5.4 5M7 13l-2.293 2.293c-.63.63-.184 1.707.707 1.707H17m0 0a2 2 0 100 4 2 2 0 000-4zm-8 2a2 2 0 11-4 0 2 2 0 014 0z"
                     />
                   </svg>
-                  <span className="badge badge-sm bg-red-700 text-white indicator-item">0</span>
+                  <span className="badge badge-sm bg-red-700 text-white indicator-item">
+                    <button>{cart.length}</button>
+                  </span>
                 </div>
               </div>
               <div
@@ -102,27 +133,87 @@ export default function Navbar() {
                   <span className="text-lg font-bold"></span>
                   <span className="text-info"></span>
                   <div className="card-actions">
-                    <button className="btn btn-primary btn-block">
-                      View cart
-                    </button>
+                    <Link href="/view-cart">
+                      <button className="btn btn-primary btn-block">
+                        View cart
+                      </button>
+                    </Link>
                   </div>
                 </div>
               </div>
             </div>
 
             {/* Avatar Dropdown */}
-            <div className="dropdown dropdown-end ml-2">
-              
-               <div>
-                <Link href='/login'><button>Login</button></Link>
-               </div>
-           
-        
+            <div>
+              {user ? (
+                <div className="dropdown dropdown-end z-50">
+                  <div
+                    tabIndex={0}
+                    role="button"
+                    className="btn btn-ghost btn-circle avatar"
+                  >
+                    <div
+                      title={user?.displayName || "User"}
+                      className="w-10 rounded-full tooltip"
+                      data-tip={user?.displayName}
+                    >
+                      <Image
+                        width={200}
+                        height={200}
+                        alt="Photo"
+                        src=''
+                      />
+                    </div>
+                  </div>
+                  <ul
+                    tabIndex={0}
+                    className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box md:w-52 w-32 text-xs"
+                  >
+                    <li>
+                      <Link href="/dashboard/profile" className="btn mr-2">
+                        My Profile
+                      </Link>
+                    </li>
+                    <li>
+                      <Link href="/dashboard" className="btn mr-2">
+                        Dashboard
+                      </Link>
+                    </li>
+                    <li className="mt-2">
+                      <button
+                        onClick={() => handleLogOut()}
+                        className="bg-gray-200 block text-center"
+                      >
+                        Logout
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              ) : (
+                <>
+                  <Link className="btn btn-outline mr-2" href="/login">
+                    Log in
+                  </Link>
+                </>
+              )}
             </div>
+
+            {/* <div className="dropdown dropdown-end ml-2">
+              {user ? (
+                <div>
+                  <button onClick={() => handleLogOut()}>Logout</button>
+                </div>
+              ) : (
+                <div>
+                  <Link href="/login">
+                    <button>Login</button>
+                  </Link>
+                </div>
+              )}
+            </div> */}
           </div>
         </div>
-
       </div>
-    </div>
+    </nav>
   );
 }
