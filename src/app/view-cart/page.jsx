@@ -1,28 +1,53 @@
 "use client";
 import Image from "next/image";
-import UseAuth from "../ContextApi/UseAuth"
-
+import UseAuth from "../ContextApi/UseAuth";
 
 export default function page() {
-  
-  const{cart} = UseAuth();
+  const { cart } = UseAuth();
   console.log(cart);
 
-
   return (
-    <div className='min-h-screen'>
-         <div>
-          {
-            cart.map(data=>{
-              return (
-                <>
-                <h2>{data.name}</h2>
-                <Image src={data.image} alt='cart data' height={300} width={300}/>
-                </>
-              )
-            })
-          }
-         </div>
+    <div className="min-h-screen pt-24 grid grid-cols-5 gap-6">
+
+     <div className='col-span-3'>
+      
+     <div className="grid grid-cols-3 gap-4">
+        {cart.map((data) => {
+          return (
+            <>
+              <div className="font-thin text-start border p-4 bg-[#BA0120] text-white rounded-br-4xl rounded-tl-4xl ">
+                <div>
+                  <Image
+                    src={data.image}
+                    width={500}
+                    height={100}
+                    alt="food"
+                    className="h-[200px] rounded-br-4xl rounded-tl-4xl object-cover overflow-hidden"
+                  />
+                  <h2>Name:{data.name}</h2>
+
+                  <h2>Title: {data.title}</h2>
+                  <p>Price: {data.price}$</p>
+                </div>
+              </div>
+            </>
+          );
+        })}
       </div>
-  )
+     </div>
+
+     <div className='col-span-2'>
+      <div>
+        <ul>
+          <li></li>
+        </ul>
+      </div>
+      <hr />
+      <h2>
+        Total Price:
+      </h2>
+     </div>
+
+    </div>
+  );
 }

@@ -2,10 +2,10 @@
 
   {
     "id": "1",
-    "category": "Dessert",
+    "category": "Cake",
     "image": "/images/cheesecake.jpg",
     "name": "New York Cheesecake",
-    "title": "Creamy Dream Dessert",
+    "title": "Creamy Dream Cake",
     "description": "Smooth, rich cheesecake with a graham cracker crust. Finished with a drizzle of raspberry sauce.",
     "recipe": ["Cream Cheese", "Eggs", "Sugar", "Graham Crackers", "Butter"],
     "price": 4.49,
@@ -35,11 +35,11 @@
   },
   {
     "id": "4",
-    "category": "Dessert",
+    "category": "Cake",
     "image": "https://i.ibb.co.com/SXkBW1vF/Screenshot-2025-04-23-at-3-15-05-AM.png",
     "name": "Chocolate Brownie",
     "title": "Fudgy Chocolate Treat",
-    "description": "Rich and gooey chocolate brownie topped with melted chocolate chips. A heavenly dessert for all ages.",
+    "description": "Rich and gooey chocolate brownie topped with melted chocolate chips. A heavenly Cake for all ages.",
     "recipe": ["Flour", "Cocoa", "Butter", "Sugar", "Chocolate Chips"],
     "price": 2.99,
     "quantity": 1
@@ -114,7 +114,7 @@
  
   {
     "id": "11",
-    "category": "Dessert",
+    "category": "Cake",
     "image": "/images/icecream.jpg",
     "name": "Vanilla Ice Cream",
     "title": "Cool Creamy Classic",
@@ -175,7 +175,7 @@
     },
     {
       "id": "17",
-      "category": "Dessert",
+      "category": "Cake",
       "image": "/images/red-velvet.jpg",
       "name": "Red Velvet Cake",
       "title": "Fluffy Velvet Sweet",
@@ -236,7 +236,7 @@
     ,
     {
       "id": "23",
-      "category": "Dessert",
+      "category": "Cake",
       "image": "/images/donut.jpg",
       "name": "Chocolate Donut",
       "title": "Ring of Happiness",

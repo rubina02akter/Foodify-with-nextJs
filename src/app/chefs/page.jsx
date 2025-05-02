@@ -14,7 +14,7 @@ export default function page() {
 
 
   return (
-    <div className='grid grid-cols-3 gap-6 w-11/12 mx-auto my-12'>
+    <div className='grid grid-cols-3 gap-6 w-11/12 mx-auto py-24'>
       {
         chefs.map(chef=>(
           <div className='border rounded-3xl p-6'>

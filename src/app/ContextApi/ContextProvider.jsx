@@ -1,42 +1,55 @@
 "use client";
-import { GoogleAuthProvider, onAuthStateChanged, signInWithPopup, signOut } from "firebase/auth";
-import { createContext } from "react";
-import { useState,useEffect } from "react";
+
+import { createContext, useState, useEffect } from "react";
+import {
+  GoogleAuthProvider,
+  onAuthStateChanged,
+  signInWithPopup,
+  signOut,
+} from "firebase/auth";
 import { auth } from "../firebase/firebase.init";
 
 export const AuthContext = createContext(null);
+
 const provider = new GoogleAuthProvider();
 
 export default function ContextProvider({ children }) {
-  const[cart,setCart] = useState([]);
-  const[user, setUser] = useState(null);
- 
- //
- const signInWithGoogle = () => {
-  return signInWithPopup(auth,provider)
-}
-//
-const signOutUser = ( ) => {
- return signOut(auth);
-}
-//
-useEffect(()=>{
-  const unSubscribe = onAuthStateChanged(auth,currentUser=>{
-      console.log('currently logged in',currentUser)
-      setUser(currentUser)
-    })
-    return () => {
-      unSubscribe()
-    }
-  },[])
-  
+  const [cart, setCart] = useState([]);
+  const [user, setUser] = useState(null);
+  const [loading, setLoading] = useState(true);
 
+  // Sign in with Google (returns promise so caller can await)
+  const signInWithGoogle = () => {
+    setLoading(true);
+    return signInWithPopup(auth, provider);
+  };
+
+  // Sign out user
+  const signOutUser = () => {
+    setLoading(true);
+    return signOut(auth);
+  };
+
+  // Track auth state
+  useEffect(() => {
+    const unSubscribe = onAuthStateChanged(auth, (currentUser) => {
+      console.log("Auth state changed:", currentUser);
+      setUser(currentUser);
+      setLoading(false);
+    });
+    return () => unSubscribe();
+  }, []);
+
+  // Context value
   const allInformation = {
-    user, setUser,
-    cart,setCart,
+    user,
+    setUser,
+    cart,
+    setCart,
+    loading,
+    setLoading,
     signInWithGoogle,
-    signOutUser
- 
+    signOutUser,
   };
 
   return (

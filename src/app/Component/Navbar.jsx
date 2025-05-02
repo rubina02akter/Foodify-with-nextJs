@@ -83,10 +83,10 @@ export default function Navbar() {
           </div>
           <Image
           width={500}
-          height={500}
+          height={100}
           alt="Photo"
           src={logo}
-          className='w-48 h-60 mt-8'
+          className='w-48 h-20  object-cover'
           />
         </div>
 
@@ -134,7 +134,7 @@ export default function Navbar() {
                   <span className="text-info"></span>
                   <div className="card-actions">
                     <Link href="/view-cart">
-                      <button className="btn btn-primary btn-block">
+                      <button className="btn bg-red-800 text-white btn-block">
                         View cart
                       </button>
                     </Link>
@@ -182,7 +182,7 @@ export default function Navbar() {
                     <li className="mt-2">
                       <button
                         onClick={() => handleLogOut()}
-                        className="bg-gray-200 block text-center"
+                        className=" block text-black font-bold text-center"
                       >
                         Logout
                       </button>

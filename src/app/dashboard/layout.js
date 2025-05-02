@@ -2,10 +2,10 @@ import Router from '../dashboard/router.jsx'
 export default function DashboardLayout({ children }) {
   return (
   <div className='grid grid-cols-4 gap-6 min-h-screen'>
-   <div className='col-span-1'>
+   <div className='col-span-1 '>
    <Router />
    </div>
-   <div className='col-span-3'>
+   <div className='col-span-3 pt-24'>
    {children}
    </div>
   </div>
