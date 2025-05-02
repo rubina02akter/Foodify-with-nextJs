@@ -1,24 +1,24 @@
 export default function ChooseUs() {
   return (
     <div className="py-24  shadow-lg">
-      <h2 className="text-4xl font-bold text-center  mb-12">
+      <h2 className="text-5xl  underline font-bold text-center  mb-12">
         Why Choose Us?
       </h2>
 
-      <div className="w-11/12 mx-auto">
-        <div className="collapse my-4 collapse-arrow bg-white text-[#180905] border border-[#BA0120] rounded-xl shadow">
+      <div className="w-11/12 mx-auto text-center">
+        <div className="collapse my-4 collapse-arrow bg-white text-[#180905]  rounded-xl shadow">
           <input type="radio" name="why-choose-us" defaultChecked />
-          <div className="collapse-title text-lg font-semibold text-[#BA0120]">
+          <div className="collapse-title text-2xl text-[#71B51D] font-semibold ">
             🌱 Fresh & Quality Ingredients
           </div>
-          <div className="collapse-content text-base">
+          <div className="collapse-content text-[#71B51D] font-thin">
             We partner with top chefs and trusted suppliers to ensure every dish is made with the freshest, highest-quality ingredients.
           </div>
         </div>
 
-        <div className="collapse my-4 collapse-arrow bg-white text-[#180905] border border-[#BA0120] rounded-xl shadow">
+        <div className="collapse my-4 collapse-arrow bg-white text-[#DE8C00]  rounded-xl shadow">
           <input type="radio" name="why-choose-us" />
-          <div className="collapse-title text-lg font-semibold text-[#BA0120]">
+          <div className="collapse-title text-2xl  font-semibold ">
             🚚 Fast & Reliable Delivery
           </div>
           <div className="collapse-content text-base">
@@ -26,9 +26,9 @@ export default function ChooseUs() {
           </div>
         </div>
 
-        <div className="collapse collapse-arrow bg-white text-[#180905] border border-[#BA0120] rounded-xl shadow">
+        <div className="collapse collapse-arrow bg-white text-[#99935A]  rounded-xl shadow">
           <input type="radio" name="why-choose-us" />
-          <div className="collapse-title text-lg font-semibold text-[#BA0120]">
+          <div className="collapse-title text-2xl  font-semibold ">
             🔒 Easy & Secure Ordering
           </div>
           <div className="collapse-content text-base">

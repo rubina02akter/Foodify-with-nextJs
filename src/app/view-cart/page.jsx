@@ -7,11 +7,8 @@ export default function page() {
   console.log(cart);
 
   return (
-    <div className="min-h-screen pt-24 grid grid-cols-5 gap-6">
-
-     <div className='col-span-3'>
-      
-     <div className="grid grid-cols-3 gap-4">
+    <div className="min-h-screen pt-24">
+      <div className="grid grid-cols-4 gap-4">
         {cart.map((data) => {
           return (
             <>
@@ -34,20 +31,6 @@ export default function page() {
           );
         })}
       </div>
-     </div>
-
-     <div className='col-span-2'>
-      <div>
-        <ul>
-          <li></li>
-        </ul>
-      </div>
-      <hr />
-      <h2>
-        Total Price:
-      </h2>
-     </div>
-
     </div>
   );
 }

@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import Data from '../../../../public/data.json'
+import Link from 'next/link';
 
 export default function page({params}) {
 
@@ -7,8 +9,31 @@ export default function page({params}) {
   const filterData = Data.filter((card)=>card.category === category)
 
   return (
-    <div>
-     <h2>{filterData.length}</h2>
+    <div className='my-6'>
+      <div className='grid grid-cols-3 gap-4'>
+      {
+        filterData.map(d=>(
+        
+          <div className='font-thin text-start border p-4 bg-[#BA0120] text-white rounded-br-4xl rounded-tl-4xl '>
+          <div> 
+           
+            <Image src={d.image} width={500} height={100} alt='food' className='h-[200px] rounded-br-4xl rounded-tl-4xl object-cover overflow-hidden'/>
+            <h2>Name:{d.name}</h2>
+          
+          <h2>Title: {d.title}</h2>
+          <p>Price: {d.price}$</p>
+          <div className='flex justify-end'>
+              <Link href={`/food-card/${d.id}`}>
+              <button className='btn rounded-br-4xl rounded-tl-4xl text-[#BA0120]'>View Details</button>
+              </Link>
+            </div>
+          </div>
+         
+        </div>
+       
+        ))
+      }
+     </div>
     </div>
   )
 }
