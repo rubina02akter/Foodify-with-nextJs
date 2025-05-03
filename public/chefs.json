@@ -2,73 +2,73 @@
   {
     "id": 1,
     "name": "Chef Marco Rossi",
-    "image": "/images/chefs/marco.jpg",
+    "image": "https://i.ibb.co.com/4RWcmyfY/chef1.jpg",
     "description": "Expert in Italian cuisine with 15 years of experience in authentic pasta and pizza."
   },
   {
     "id": 2,
     "name": "Chef Ayesha Khan",
-    "image": "/images/chefs/ayesha.jpg",
+    "image": "https://i.ibb.co.com/YB7MZkMP/chef2.jpg",
     "description": "Passionate about South Asian spices, known for her flavorful biryanis and kebabs."
   },
   {
     "id": 3,
     "name": "Chef John Becker",
-    "image": "/images/chefs/john.jpg",
+    "image": "https://i.ibb.co.com/35mMbB3S/chef3.jpg",
     "description": "Specializes in American comfort food, from juicy burgers to smoky BBQ."
   },
   {
     "id": 4,
     "name": "Chef Mei Lin",
-    "image": "/images/chefs/mei.jpg",
+    "image": "https://i.ibb.co.com/HTvFGRDG/chef4.jpg",
     "description": "Master of Chinese fusion, offering a modern twist to traditional dishes."
   },
   {
     "id": 5,
     "name": "Chef Carlos Ramirez",
-    "image": "/images/chefs/carlos.jpg",
+    "image": "https://i.ibb.co.com/dwhP3BBJ/chef5.jpg",
     "description": "Known for Mexican street food—tacos, enchiladas, and more with bold flavors."
   },
   {
     "id": 6,
     "name": "Chef Sophia Laurent",
-    "image": "/images/chefs/sophia.jpg",
+    "image": "https://i.ibb.co.com/fYLYwYyN/chef6.jpg",
     "description": "French cuisine specialist with a flair for elegant pastries and rich sauces."
   },
   {
     "id": 7,
     "name": "Chef Kenji Sato",
-    "image": "/images/chefs/kenji.jpg",
+    "image": "https://i.ibb.co.com/4RWcmyfY/chef1.jpg",
     "description": "Precision-driven Japanese chef creating sushi and ramen masterpieces."
   },
   {
     "id": 8,
     "name": "Chef Fatima Noor",
-    "image": "/images/chefs/fatima.jpg",
+    "image": "https://i.ibb.co.com/YB7MZkMP/chef2.jpg",
     "description": "Middle Eastern culinary expert bringing flavors of shawarma and falafel to life."
   },
   {
     "id": 9,
     "name": "Chef Luca Bianchi",
-    "image": "/images/chefs/luca.jpg",
+    "image": "https://i.ibb.co.com/35mMbB3S/chef3.jpg",
     "description": "Award-winning chef known for Mediterranean diet-friendly dishes and fresh herbs."
   },
   {
     "id": 10,
     "name": "Chef Emma Williams",
-    "image": "/images/chefs/emma.jpg",
+    "image": "https://i.ibb.co.com/HTvFGRDG/chef4.jpg",
     "description": "Dessert queen — from cupcakes to classic cheesecakes, she does it all."
   },
   {
     "id": 11,
     "name": "Chef Amir Rahman",
-    "image": "/images/chefs/amir.jpg",
+    "image": "https://i.ibb.co.com/dwhP3BBJ/chef5.jpg",
     "description": "Grill master and kebab specialist with a focus on Turkish and Persian flavors."
   },
   {
     "id": 12,
     "name": "Chef Grace Liu",
-    "image": "/images/chefs/grace.jpg",
+    "image": "https://i.ibb.co.com/fYLYwYyN/chef6.jpg",
     "description": "Pan-Asian cuisine expert blending Thai, Korean, and Vietnamese dishes beautifully."
   }
 ]

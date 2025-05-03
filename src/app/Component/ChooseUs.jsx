@@ -1,6 +1,6 @@
 export default function ChooseUs() {
   return (
-    <div className="py-24  shadow-lg">
+    <div className="py-4  shadow-lg">
       <h2 className="text-5xl  underline font-bold text-center  mb-12">
         Why Choose Us?
       </h2>

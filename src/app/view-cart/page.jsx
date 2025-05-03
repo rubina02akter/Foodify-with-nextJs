@@ -7,7 +7,7 @@ export default function page() {
   console.log(cart);
 
   return (
-    <div className="min-h-screen pt-24">
+    <div className="min-h-screen ">
       <div className="grid grid-cols-4 gap-4">
         {cart.map((data) => {
           return (

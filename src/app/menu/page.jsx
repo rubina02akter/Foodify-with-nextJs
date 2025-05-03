@@ -5,7 +5,7 @@ export default function page() {
 
 //
   return (
-    <div className='p-0 my-6'>
+    <div className='my-6'>
      <div className='grid grid-cols-3 gap-4'>
       {
         Data.map(d=>(

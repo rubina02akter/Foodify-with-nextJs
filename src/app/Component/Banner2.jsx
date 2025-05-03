@@ -11,7 +11,7 @@ export default function Banner2() {
             Taste Our Delicious <br />
             Best Foods
           </h2>
-        <Link href='/order-now'><button className='btn my-6'>Order Delicious Food Now!</button></Link>
+        <Link href='/menu'><button className='btn my-6'>Order Delicious Food Now!</button></Link>
           <p>
             There are many variations of passages of Lorem Ipsum available,
             but the majority have suffered alteration in some form, by

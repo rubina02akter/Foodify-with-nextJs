@@ -24,7 +24,7 @@ export default function LoginPage() {
   };
 
   return (
-    <div className="pt-24 min-h-screen flex justify-center items-center">
+    <div className=" min-h-screen flex justify-center items-center">
       <button onClick={handleLogIN} className="btn btn-primary" disabled={loading}>
         {loading ? 'Logging in...' : 'Log in with Google'}
       </button>

@@ -4,7 +4,7 @@ import bg from '../../../public/home/banner.jpg'
 
 export default function AboutPage() {
   return (
-    <div className="bg-white text-gray-800 py-24 px-4 sm:px-6 lg:px-20">
+    <div className="bg-white text-gray-800 py-4 px-4 sm:px-6 lg:px-20">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12">

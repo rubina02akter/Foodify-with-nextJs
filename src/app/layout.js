@@ -21,7 +21,9 @@ export default function RootLayout({ children }) {
 
         <ContextProvider>
         <body className={`${geistSans.variable} antialiased`}>
-          <Navbar />
+          <div className='h-[80px]'>
+            <Navbar />
+          </div>
           {children}
           <Footer />
         </body>
