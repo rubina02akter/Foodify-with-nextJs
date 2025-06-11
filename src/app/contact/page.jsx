@@ -19,7 +19,7 @@ export default function page() {
             <div className="space-y-4 text-gray-600">
               <div>
                 <h3 className="font-medium text-gray-700">Address:</h3>
-                <p>123 Avenue Street, Dhaka, Bangladesh</p>
+                <p>Dhaka, Bangladesh</p>
               </div>
               <div>
                 <h3 className="font-medium text-gray-700">Email:</h3>
@@ -27,7 +27,7 @@ export default function page() {
               </div>
               <div>
                 <h3 className="font-medium text-gray-700">Phone:</h3>
-                <p>+880 1234 567 890</p>
+                <p>*********</p>
               </div>
               <div>
                 <h3 className="font-medium text-gray-700">Office Hours:</h3>
