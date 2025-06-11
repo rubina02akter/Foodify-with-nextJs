@@ -3,7 +3,7 @@
   {
     "id": "1",
     "category": "Cake",
-    "image": "/images/cheesecake.jpg",
+    "image": "https://i.ibb.co/Z1MR95Kf/d1.jpg",
     "name": "New York Cheesecake",
     "title": "Creamy Dream Cake",
     "description": "Smooth, rich cheesecake with a graham cracker crust. Finished with a drizzle of raspberry sauce.",
@@ -14,7 +14,7 @@
   {
     "id": "2",
     "category": "Burger",
-    "image": "/images/veggie-burger.jpg",
+    "image": "https://i.ibb.co/GvWvmxH9/b4.jpg",
     "name": "Veggie Burger",
     "title": "Green Goodness Burger",
     "description": "A hearty veggie patty with fresh greens and house-made avocado sauce. Perfect for plant-based diets.",
@@ -47,7 +47,7 @@
   {
     "id": "5",
     "category": "Salad",
-    "image": "https://i.ibb.co.com/j9hYkByt/dietary-salad-with-tomatoes-feta-lettuce-spinach-pine-nuts.jpg",
+    "image": "https://i.ibb.co/TBPGttr6/s2.jpg",
     "name": "Caesar Salad",
     "title": "Crisp & Creamy",
     "description": "Fresh romaine lettuce tossed with Caesar dressing, croutons, and parmesan. A healthy, tasty delight.",

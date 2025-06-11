@@ -15,7 +15,7 @@ export default function card({ card }) {
     <div className='font-bold text-start border p-4 bg-[#BA0120] text-white rounded-br-4xl rounded-tl-4xl '>
       <div> 
        
-        <Image src={image} width={500} height={100} alt='food' className='h-[200px] rounded-br-4xl rounded-tl-4xl object-cover overflow-hidden'/>
+        <Image src={image} width={500} height={100} alt= {title} className='h-[300px] rounded-br-4xl rounded-tl-4xl object-cover overflow-hidden'/>
         <h2 className={roboto.className}>Name:{name}</h2>
       
       <h2>Title: {title}</h2> 
