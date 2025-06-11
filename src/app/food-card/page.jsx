@@ -16,7 +16,7 @@ export default function Page() {
 
   return (
     <div>
-      <div className="grid grid-cols-2 gap-4 w-11/12 mx-auto my-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 w-11/12 mx-auto my-12">
         {homeCards.map((card) => (
           <Card key={card.id} card={card} />
         ))}
